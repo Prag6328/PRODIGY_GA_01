@@ -42,7 +42,7 @@ app.post('/generate', async (req, res) => {
       { inputs: prompt, parameters: { temperature, max_new_tokens: maxLength } },
       {
         headers: {
-          Authorization: `Bearer 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`,
+          Authorization: `Bearer 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`,
         },
       }
     );
